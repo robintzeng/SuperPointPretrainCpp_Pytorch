@@ -1,7 +1,11 @@
 
-//cmake -DCMAKE_PREFIX_PATH=/home/robin/libtorch ..
+## SuperPoint C++
+### Superpoint with pretrain model written in C++  
 
-Change the CMAKE_PREFIX_PATH CMakeList to your libtorch path
-
-libtorch should download from
-https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-1.0.1.zip 
+### 1. Change  CMAKE_PREFIX_PATH in CMakeList to your libtorch path
+### 2. Install libtorch 
+```
+wget https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-1.0.1.zip 
+```
+### Codes are extract from
+https://github.com/KinglittleQ/SuperPoint_SLAM
